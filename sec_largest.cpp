@@ -12,6 +12,8 @@ if (arr[i]>largest){
     largest = arr[i];
     sec_largest =largest;
 }
+    else if( arr[i]>sec_largest && arr[i]!= max){
+        sec_largest= arr[i]
 }
 cout<<sec_largest;
 }
