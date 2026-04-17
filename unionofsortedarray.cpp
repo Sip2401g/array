@@ -14,7 +14,7 @@ int main(){
         s.insert(arr2[i]); // in maps we use s[arr2[i]]++; but in sets we use s.insert(arr2[i]) because set is a collection of unique elements and it does not allow duplicate values. When we insert an element into a set, it checks if the element already exists in the set. If it does, the insertion is ignored, and the set remains unchanged. If the element does not exist in the set, it is added to the set. This behavior ensures that all elements in a set are unique, and it allows us to easily find the union of two arrays by simply inserting all elements from both arrays into the set.
     }
     for(auto it=s.begin(); it!=s.end(); it++){
-        cout<<*it<<" "; //similary we can solve this with it->first
+        cout<<*it<<" "; //similary we can solve this with it->first in mpas to get the value and for freq we use it->second
     }
     
 }
